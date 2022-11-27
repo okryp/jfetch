@@ -6,7 +6,7 @@ BROWSER=`xdg-settings get default-web-browser`;
 TIME=`date +%H:%M:%S`
 DATE=`date +%d/%m/%y`
 MEMORY=``;
-UPTIME=`uptime`;
+UPTIME=`uptime --pretty`;
 
 echo -e "\e[1;31mDISTRO:\e[0m $DISTRO";
 echo -e "\e[1;31mUSER:\e[0m $USER";

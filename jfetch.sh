@@ -3,8 +3,8 @@
 # Fetch vars
 OS=$(uname -o)
 USER=$(whoami)
-TIME=$(date +%H:%M:%S)
-DATE=$(date +%d/%m/%y)
+TIME=$(date +%H.%M.%S)
+DATE=$(date +%d.%m.%y)
 UPTIME=$(uptime --pretty)
 
 # Formatting related
